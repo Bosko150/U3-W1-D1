@@ -24,11 +24,23 @@ function App() {
         <ButtonComponent id="button1" buttonTxt="questi" className="first" />
         <ButtonComponent id="button2" buttonTxt="sono" className="first" />
         <ButtonComponent id="button3" buttonTxt="bottoni" className="first" />
-        <ImageComponent
-          src="https://plus.unsplash.com/premium_photo-1664647949391-c4a4c87c9522?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="immagine cibo"
-          style={{ width: "400px" }}
-        />
+        <div>
+          <ImageComponent
+            src="https://plus.unsplash.com/premium_photo-1664647949391-c4a4c87c9522?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="immagine cibo"
+            style={{ width: "200px" }}
+          />
+          <ImageComponent
+            src="https://images.unsplash.com/photo-1713617317250-c7020e06230f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="immagine uccello"
+            style={{ width: "200px" }}
+          />
+          <ImageComponent
+            src="https://images.unsplash.com/photo-1713709165652-098baac9656c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="immagine barca"
+            style={{ width: "200px" }}
+          />
+        </div>
       </header>
     </div>
   );
